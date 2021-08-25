@@ -5,3 +5,4 @@
 - add the css
 - consider removing use of "eval"
 - extend funtionality(?)
+- add error checks (e.g. can currently append to a number)
