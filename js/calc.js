@@ -15,6 +15,9 @@ function calculate(event) {
   const clickedButtonValue = event.target.value;
   var flag = 0;
 
+  // check if the current value is an operator
+  //console.log(clickedButtonValue.classList.contains('operator'));
+
   switch(clickedButtonValue) {
     case '=':
         if (display.value !== '') {
